@@ -4,7 +4,7 @@ This Project is deployed on the Aurora testnet
 
 Deployed Smart Contract: [0x9665056982c0125F198c4BFD23346Bb7D65AaB90](https://testnet.aurorascan.dev/address/0x9665056982c0125F198c4BFD23346Bb7D65AaB90)
 
-Live Demo -> https://nft-marketplace-nextui.vercel.app/
+Live Demo -> https://nftmarket-aurora-testnet.vercel.app/
 
 ### Usage
 How to clone and run this project
