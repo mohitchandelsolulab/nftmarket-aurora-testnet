@@ -84,7 +84,7 @@ export default function NftSingleCard({ id }) {
             closeHandler()
             Swal.fire({
                 title: 'Success',
-                html: `Transaction successfully <br><a href="https://rinkeby.etherscan.io/tx/${tx.hash}"><u>view on explorer</u></a> `,
+                html: `Transaction successfully <br><a href="https://testnet.aurorascan.dev/tx/${tx.hash}"><u>view on explorer</u></a> `,
                 icon: 'Success',
                 confirmButtonText: 'Done',
             }).then(

@@ -12,12 +12,12 @@ export default function Navigation() {
 
     async function askToChangeNetwork() {
         if (window.ethereum) {
-            const targetNetworkId = '0x4';
-            const chainId = 4;
+            const targetNetworkId = '0x1313161555';
+            const chainId = 1313161555;
             if (window.ethereum.networkVersion != chainId) {
                 Swal.fire({
                     title: 'Warning',
-                    text: "This Dapp only runs on Rinkeby Testnet",
+                    text: "This Dapp only runs on Aurora Testnet",
                     icon: 'warning',
                 })
                 try {
@@ -33,7 +33,7 @@ export default function Navigation() {
                                 params: [
                                     {
                                         chainId: targetNetworkId,
-                                        rpcUrl: 'https://rinkeby.infura.io/v3/',
+                                        rpcUrl: 'https://testnet.aurora.dev/',
                                     },
                                 ],
                             });

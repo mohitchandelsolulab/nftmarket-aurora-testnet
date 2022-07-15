@@ -21,9 +21,11 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 module.exports = {
   solidity: "0.8.4",
   networks: {
-    rinkeby: {
-      url: secrets.RINKEBY_URL,
+    testnet_aurora: {
+      url: 'https://testnet.aurora.dev',
       accounts: [secrets.PRIVATE_KEY],
-    },
+      chainId: 1313161555,
+      // gasPrice: 120 * 1000000000
+    }
   },
 };
